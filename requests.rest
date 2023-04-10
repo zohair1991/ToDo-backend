@@ -1,0 +1,18 @@
+
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text":"Get me Samsung S23 Ultra Please."
+} 
+
+###
+
+DELETE http://localhost:3001/todo/delete/6433463859aa587d580f8889
+
+###
+PUT  http://localhost:3001/todo/complete/6433467b59aa587d580f888b
